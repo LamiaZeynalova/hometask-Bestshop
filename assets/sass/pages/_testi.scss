@@ -1,0 +1,47 @@
+// 3section//
+
+#Testimonials.Testimonials {
+    width: 100%;
+    min-height: 500px;
+    margin-top: 20px;
+    padding: 0 0;
+    background: url(https://team90degree.com/html/tf/bestshop-new-demo/bestshop-demo/assets-for-index-2/img/tbgestimonial.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    padding-top: 42px;
+    padding-bottom: 80px;
+}
+.counter i {
+    font-size: 36px;
+    color: #121212;
+    background-color: #F5F5F5;
+    margin: 0 auto;
+    border: 1px solid #FFFFFF;
+    width: 100px;
+    height: 100px;
+    line-height: 86px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: block;
+    cursor: pointer;
+    transition: all 0,5s;
+    
+}
+.counter-single .counter i:hover, .counter-single .counter :hover i {
+  transform: rotateY(-180deg);
+  color:#f63440;
+}
+.counter h2{
+    font-size: 17px;
+    letter-spacing: 0px;
+
+}
+.blog{
+    .container{
+        .card{
+            border: transparent;
+        }
+
+    }
+}

@@ -1,0 +1,28 @@
+// section products //
+
+.products .card{
+    border: transparent;
+    cursor: pointer;
+.card-body{
+    .card-text{color:red;
+  }
+.star i {
+ font-size: small;
+  }
+    }
+    }
+ .container .line{
+    text-align: center;
+    width: 85px;
+    height: 3px;
+    background-color: red;
+ }
+.products .cardstar .star i:nth-child(-n+3) {
+    color: red;}
+.products .cardstar4 .star i:nth-child(-n+2) {
+        color: red;}
+.products .cardstar5 .star i:nth-child(-n+3) {
+color: red;}
+.products .cardstar6 .star i:nth-child(-n+4) {
+    color: red;}
+

@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/sass/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    
+</head>
+<body>
+  <header>
+    <section id="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="assets/img/logo.png" alt="starbootstrap">
+                </div>
+                <nav class="nav_area">
+                    <ul class="nav_list">
+                        <li class="nav_list_item"><a href="#Home" style="color: red;">HOME</a></li>
+                        <li class="nav_list_item"><a href="#Products">PRODUCTS</a></li></li>
+                        <li class="nav_list_item"> <a href="#Testimonials">TESTIMONIALS</a></li>
+                        <li class="nav_list_item"><a href="#Contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="menu"><i class="fa-solid fa-bars" style="color: RED;"></i>
+                </div>
+            </div>
+ </div>
+    </section>
+</header>
+    <section class="homehead" id="Home">
+
+      <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"  aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="assets/img/homeimg.jpg"class="d-block w-100" alt="">
+            <div class="carousel-caption" >
+              <h1>Wash Your Hand</h1>
+              <p>80% Discount for this season</p>
+              <a href="#products" class="btn btn-sm  btn-primary btn-danger" style="width:max-content">Our products</a>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="assets/img/homeimg1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption ">
+              <h1>Stay Healthy</h1>
+              <p>With Working Cart & Pay Pal</p>
+              <a href="#products" class="btn btn-sm  btn-primary btn-danger" style="width:max-content">Our products</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  <div class="homebodypage">
+    <div class="containe">
+      <div class="boxs">
+        <div class="box_item1">
+          <h1 class="box_item1_title1">Gloves</h1>
+          <p class="box_item1_title2">50 %   OFF  MEDICAL  GLOVES</p>
+        </div>
+        <div class="box_item2">
+          <p class="box_item2_title1">Disposable Face Mask</p>
+          <p class="box_item2_title2"><span>OFF 70 %</span></p>
+          <p class="box_item2_title3">Don't Miss </p>
+        </div>
+        <div class="box_item3">
+          <p class="box_item3_title1">Hand Shop</p>
+        <p class="box_item3_title2"><span>OFF 50 %</span></p>
+        <p class="box_item3_title3">Don't Miss This </p>
+        </div>
+        
+      </div>
+      
+    </div>
+  </div>
+    </section>
+
+     <!-- PRODUCTS -->
+    <section id="Products" class="products">
+    <div class="container">
+      <div class="content d-flex  flex-column align-items-center text-center">
+        <h1>Featured Products</h1>
+        <div class="line"></div>
+      
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4 m-0" style="margin:0 50px; padding: 0 70px">
+        <div class="col">
+          <div class="card">
+            <img src="./assets/img/p1.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">New life mint soap liquid </h5>
+              <p class="card-text">$400.00  <del style="color: darkgray;">$580.00</del></p>
+              <div class="star">
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            </div>
+            <button class="btn btn-default add-item" type="button" data-image="assets-for-index-2/img/index-3-products/p1.jpg" data-name="Winter Long Sleeve Black White " data-cost="400.00" data-id="1" >
+              Add to cart
+            </button> 
+          </div>
+        </div>
+        <div class="col">
+          <div class="card cardstar">
+            <img src="./assets/img/p2.jpg" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">Women Black Face Mask</h5>
+                <p class="card-text">$300.00</p>
+                <div class="star">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+              </div>
+              </div>
+              <button class="btn btn-default add-item" type="button" data-image="assets-for-index-2/img/index-3-products/p1.jpg" data-name="Winter Long Sleeve Black White " data-cost="400.00" data-id="1" >
+                Add to cart
+              </button> 
+            </div>
+          </div>
+
+
+          <div class="col">
+            <div class="card">
+              <img src="./assets/img/p3.jpg" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">Women Black Face Mask</h5>
+                <p class="card-text">$600.00</p>
+                <div class="star" style="color: red;">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+              </div>
+              </div>
+              <button class="btn btn-default add-item" type="button" data-image="assets-for-index-2/img/index-3-products/p1.jpg" data-name="Winter Long Sleeve Black White " data-cost="400.00" data-id="1" >
+                Add to cart
+              </button>
+  
+            </div>
+          </div>
+          <div class="col">
+            <div class="card cardstar4">
+              <img src="./assets/img/p4.jpg" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">Elegant Formal Face Mask</h5>
+                <p class="card-text">$500.00</p>
+                <div class="star">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+              </div>
+              </div>
+              <button class="btn btn-default add-item" type="button" data-image="assets-for-index-2/img/index-3-products/p1.jpg" data-name="Winter Long Sleeve Black White " data-cost="400.00" data-id="1" >
+                Add to cart
+              </button>
+            </div>
+          </div>
+  
+          <div class="col">
+            <div class="card cardstar5">
+              <img src="./assets/img/p5.jpg" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">Elegant Formal Face Mask</h5>
+                <p class="card-text">$600.00   <del style="color: darkgray;">$700.00</del></p>
+                <div class="star">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+              </div>
+              </div>
+              <button class="btn btn-default add-item" type="button" data-image="assets-for-index-2/img/index-3-products/p1.jpg" data-name="Winter Long Sleeve Black White " data-cost="400.00" data-id="1" >
+                Add to cart
+              </button>
+            </div>
+          </div>
+  
+          <div class="col">
+            <div class="card cardstar6">
+              <img src="./assets/img/p6.jpg" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">Elegant Formal Face Mask</h5>
+                <p class="card-text">$500.00</p>
+                <div class="star color-red">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+              </div>
+              </div>
+              <button class="btn btn-default add-item" type="button" data-image="assets-for-index-2/img/index-3-products/p1.jpg" data-name="Winter Long Sleeve Black White " data-cost="400.00" data-id="1" >
+                Add to cart
+              </button>
+            </div>
+          </div>
+  
+        
+        </div>
+
+      <div class="row text-center m-5 ">
+        <img src="./assets/img/productsimg.jpg" alt="">
+      </div>
+      <div class="container">
+        <div class="content d-flex  flex-column align-items-center text-center">
+          <h1>NEW PRODUCTS</h1>
+          <div class="line"></div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="row row-cols-1 row-cols-md-3 g-4 m-0" style="margin:0 50px; padding: 0 70px">
+        <div class="col">
+          <div class="card cardstar4">
+            <img src="./assets/img/p7.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">New life mint soap liquid </h5>
+              <p class="card-text">$400.00  <del style="color: darkgray;">$580.00</del></p>
+              <div class="star">
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            </div>
+            <button class="btn btn-default add-item" type="button" data-image="assets-for-index-2/img/index-3-products/p1.jpg" data-name="Winter Long Sleeve Black White " data-cost="400.00" data-id="1" >
+              Add to cart
+            </button> 
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./assets/img/p8.jpg" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">Women Black Face Mask</h5>
+                <p class="card-text">$600.00</p>
+                <div class="star" style="color: red;">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+              </div>
+              </div>
+              <button class="btn btn-default add-item" type="button" data-image="assets-for-index-2/img/index-3-products/p1.jpg" data-name="Winter Long Sleeve Black White " data-cost="400.00" data-id="1" >
+                Add to cart
+              </button> 
+            </div>
+          </div>
+
+
+          <div class="col">
+            <div class="card cardstar4">
+              <img src="./assets/img/p9.jpg" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title">Women Black Face Mask</h5>
+                <p class="card-text">$600.00</p>
+                <div class="star color-red">
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+              </div>
+              </div>
+              <button class="btn btn-default add-item" type="button" data-image="assets-for-index-2/img/index-3-products/p1.jpg" data-name="Winter Long Sleeve Black White " data-cost="400.00" data-id="1" >
+                Add to cart
+              </button>
+               </div>
+          
+          </div>
+          
+        </div> 
+
+    </div>
+  </div>
+    </section>
+       
+
+    <!-- TESTIMONIALS -->
+
+    <section id="Testimonials"class="Testimonials">
+      <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="content d-flex  flex-column align-items-center text-center">
+          <h1>TESTIMONIALS</h1>
+          <div class="line"></div>
+    </div>
+      </div>
+      <div class="testimonials-slider text-center col-md-12 m-5 p-5">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" style="width: 90%;height: 90%;">
+            <div class="testimonials-container shadow"> 
+              <img alt="user avatar" style="border-radius: 50%;margin-top: -55px;" src="./assets/img/profil.png">
+              <h3> Martin Johe, Co-Founder / CEO <span>Fastcompany ltd.</span> </h3>
+              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            </div>
+          </div>
+    </div>
+  </div>
+  </div>
+</div>
+    </section>
+    <section class="testimonialsfooter" style="width: 100%; min-height: 300px;">
+      <div class="container">
+				<div class="row text-center m-5">
+					<div class="col-md-3 col-sm-6  counter-single">
+						<div class="counter"> <span class=""><i class="fa fa-truck icon"></i></span>
+							<h2>Free Shipping World Wide</h2>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6  counter-single">
+						<div class="counter">
+            <span><i class="fa-solid fa-gift icon"></i></span>
+							<h2>Special Gift Per Order</h2>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 counter-single">
+						<div class="counter"> 
+              <span><i class="fa-regular fa-money-bill-1"></i></span>
+							<h2>money back guarantee</h2>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 counter-single">
+						<div class="counter">
+               <span><i class="fa-solid fa-headset"></i></span>
+							<h2>24/7 online support</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+    </section>
+    <section class="blog" style="background-color: #F8F8F8;width: 100%;height:600px;">
+      <div class="blog-counter">
+        <div class="container">
+            <div class="col-md-12 m-0 p-0">
+              <div class="content d-flex  flex-column align-items-center text-center">
+                <h1>LATEST BLOG</h1>
+                <div class="line"></div>
+          </div>
+
+          <div class="container">
+            <div class="row">
+              <div class="row row-cols-1 row-cols-md-3 g-4 m-0" style="margin:0 50px; padding: 0 70px;">
+                <div class="col">
+                  <div class="card ">
+                    <img src="./assets/img/b1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-star">
+                      <h4>How to use mask properly</h4>
+                      <span>April 16, 2020</span>
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting 
+                        industry. Lorem Ipsum has been the industry</p>
+
+                    </div> 
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="./assets/img/b2.jpg" class="card-img-top" alt="...">
+                      <div class="card-body text-star">
+                      <h4>The blood sample Of covid 19</h4>
+								        <span>April 02, 2020</span>
+								       <p>Lorem Ipsum is simply dummy text of the printing and typesetting 
+									       industry. Lorem Ipsum has been the industry</p>
+  
+                       </div>
+                    </div>
+                  </div>
+        
+        
+                  <div class="col">
+                    <div class="card ">
+                      <img src="./assets/img/b3.jpg" class="card-img-top" alt="...">
+                      <div class="card-body text-star">
+                        <h4>All About Corona Virus  </h4>
+                        <span>April 14, 2020</span>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting 
+                          industry. Lorem Ipsum has been the industry</p>
+                      </div>
+                       </div>
+                  
+                  </div>
+                  
+                </div> 
+        
+            </div>
+          </div>
+   
+            </div>
+          </div>
+     
+        </div>
+    </section>
+    <!-- Contact -->
+  <section id="Contact">
+    <div class="container m-5">
+      <div class="content d-flex  flex-column align-items-center text-center">
+        <h1>GET IN TOUCH</h1>
+        <div class="line"></div>
+      
+      </div>
+      <div class="row gap-5">
+      <div class="col-md-3 col-sm-12 d-flex flex-column" style="text-decoration: none;margin: 20px;">
+      <p class="section-title">UNITED STATES</p>
+      <ul class="mb-5 ps-0 section-info" style="list-style: none;">
+      <li><span class="text-danger"><i class="fa-solid fa-mobile-screen"></i></span>+ 123 456 7890</li>
+      <li><span class="text-danger"><i class="fa-regular fa-envelope"></i></span>admin@goshop</li>
+      <li><span class="text-danger"><i class="fa-solid fa-map-location-dot"></i></span>201 Oak Street Building 27 Manchester, USA</li>
+       </ul>
+      <p class="section-title">AUSTRALIA</p>
+      <ul class="ps-0 section-info" style="list-style: none;">
+      <li><span class="text-danger">
+      <i class="fa-solid fa-mobile-screen"></i></span>+ 123 456 7890</li>
+      <li><span class="text-danger"><i class="fa-solid fa-map-location-dot"></i></span>201 Oak Street Building 27 Manchester, USA </li>
+        </ul>
+      </div>
+    </div>
+    </div>
+  </section>
+    
+    <!-- contact map -->
+    <section id="Contact">
+          <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.6059498722902!2d-73.9779905248349!3d40.68265053941324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25bae694479a3%3A0xb9949385da52e69e!2sBarclays%20Center!5e0!3m2!1sen!2saz!4v1706378413439!5m2!1sen!2saz"
+              width="100%" height="500px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+  </section>
+  <section class="footer">
+    <footer class="bg-gray flex-between">
+      <div class="row container w-60">
+          <div class="col-lg-4 col-md-6 col-xs-12">
+              <img src="./assets/img/logo.png" alt="logo" style="width: 220px;">
+              <p class="section-info mt-3" style="width: 80%;">
+                  Sed ut perspiciatis unde omnis iste natus error sit best shop for you voluptatem.Sed ut
+                  perspiciatis
+                  unde omnis iste natus errorsit.
+              </p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-xs-12">
+          <h2>INFORMATIONS</h2>
+          <div class="row">
+          <div class="col-m-12 d-flex">
+          <ul class="p-0">
+            <li class="section-info">Delivery information</li>
+            <li class="section-info">Privacy Policy</li>
+            <li  class="section-info">Terms & Conditions </li>
+            <li class="section-info">Return & Exchange</li></ul>
+            <ul>
+            <li class="section-info">Free Shipping</li>
+            <li class="section-info">Order Status</li>
+            <li class="section-info"> Gift Cards</li>
+            <li class="section-info"> International</li>
+                               </ul>
+          </div>
+          </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+              <h2>STAY WITH US</h2>
+              <div class="email-input"><input type="email" placeholder="e-mail" class="w-100">
+              </div>
+              <div class="social-items mt-5">
+                  <span class="fw-bold">FIND US HERE:</span>
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-linkedin-in"></i>
+                  <i class="fa-brands fa-vimeo-v"></i>
+                  <i class="fa-brands fa-youtube"></i>
+              </div>
+          </div>
+        </div>
+          <div class="col-md-12 text-center mt-5 p-5"><span>© 2022 Bestshop - All Rights Reserved</span>
+      </div>
+    </footer>
+
+  </section>
+  
+     
+   
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js" integrity="sha512-Ysw1DcK1P+uYLqprEAzNQJP+J4hTx4t/3X2nbVwszao8wD+9afLjBQYjz7Uk4ADP+Er++mJoScI42ueGtQOzEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    </body>
+</html>

@@ -1,0 +1,121 @@
+
+.homebodypage{width: 100%;
+    height: 100vh;
+    background-color: #FFFFFF;
+.containe{ width:100%;
+   display: flex;
+   justify-content: center;
+   margin:6% 0;
+.boxs{  width: 75%;
+  height: 500px;
+  display: grid;
+  justify-content: center;
+  grid-template-areas: 
+         "a b b"
+         "a c c";
+  grid-template-columns: 1fr 2fr;
+  gap: 23px;
+  
+}
+}
+
+                }
+
+.box_item1{
+  grid-area: a;
+  background-image: url(https://team90degree.com/html/tf/bestshop-new-demo/bestshop-demo/assets-for-index-2/img/h3ad1.jpg);
+  text-align: center;
+  h1{ font-size: 100px;
+      line-height: 1;
+      text-transform: uppercase;
+      color: #FFFFFF    
+  }
+  p{
+      font-size: 18px;
+      letter-spacing: 10px;
+      color: #FFFFFF;
+  }
+
+}
+.box_item2{
+grid-area: b;
+display: flex;
+flex-direction: column;
+align-items: end;
+background-image: url(https://team90degree.com/html/tf/bestshop-new-demo/bestshop-demo/assets-for-index-2/img/h3ad2.jpg);
+text-align: right;
+text-transform: uppercase;
+padding-right: 20px;
+padding-top: 20px;
+letter-spacing: 10px;
+color: #FFFFFF;
+font-size: 18px; 
+.box_item2_title2{
+font-size:30px;
+letter-spacing: 4px;
+border: 4px solid white;
+width: 35%;
+text-align: center;
+
+
+} 
+.box_item2_title3{
+font-size: 12px;
+font-weight: 300;
+letter-spacing: 8px;
+}
+}
+.box_item3{ 
+grid-area: c;
+background-image: url(https://team90degree.com/html/tf/bestshop-new-demo/bestshop-demo/assets-for-index-2/img/h3ad3.jpg);
+text-align: left;
+align-items: center;
+text-transform: uppercase;
+padding-left: 20px;
+padding-top: 20px;
+letter-spacing: 10px;
+color: #FFFFFF;
+font-size: 18px;
+.box_item3_title2{
+font-size:30px;
+letter-spacing: 4px;
+border: 4px solid white;
+width: 35%;
+text-align: center;
+} 
+.box_item3_title3{
+font-size: 12px;
+font-weight: 300;
+letter-spacing: 8px;
+}
+}
+@media only screen and (max-width: 768px) {
+.box_item1 h1 {
+font-size: 50px; 
+}
+.box_item1 p, .box_item2 p, .box_item3 p {
+font-size: 14px; 
+}
+.homebodypage .containe .boxs {
+grid-template-areas: 
+"a"
+"b"
+"c";
+grid-template-columns: 1fr;
+}
+}
+@media only screen and (max-width: 968px) {
+.box_item1 h1 {
+font-size: 60px; 
+}
+.box_item1 p, .box_item2 p, .box_item3 p {
+font-size: 16px; 
+}
+.homebodypage .containe .boxs {
+grid-template-areas: 
+"a"
+"b"
+"c";
+grid-template-columns: 1fr;
+}
+}
